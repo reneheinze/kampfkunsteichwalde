@@ -1,8 +1,8 @@
-title = "Notre-Dame de Paris"
+title = "Eichwalder Kampfkunst"
 baseURL = "https://gohugo-theme-ananke.pages.dev"
 languageCode = "en-us"
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
-resourceDir = "../resources"
+theme = "ananke"
+resourceDir = "themes/ananke/resources"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
@@ -10,16 +10,7 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
 googleAnalytics = ""
 enableRobotsTXT = true
 
-[languages]
-  [languages.en]
-    title = "Ananke"
-    weight = 1
-    contentDir = "content/en"
-    # languageDirection = 'rtl' for Right-To-Left languages
-  [languages.fr]
-    title = "Ananke Fr"
-    weight = 2
-    contentDir = "content/fr"
+contentDir = "content"
 
 [sitemap]
   changefreq = "monthly"
